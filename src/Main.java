@@ -111,9 +111,6 @@ public class Main {
         S9Caracteres serieS9 = new S9Caracteres();
         serieS9.mostrarSeries(n);
 
-
-  
-=======
         System.out.println("\n=== ARREGLO 1 ===");
         A01Arrays arr1 = new A01Arrays();
         arr1.mostrarSeries(n);
@@ -135,9 +132,6 @@ public class Main {
         System.out.println("\n=== ARREGLO 5 ===");
         A05Array arr5 = new A05Array();
         arr5.mostrarSeries(n);
-
-
-
 
 
         sc.close();
