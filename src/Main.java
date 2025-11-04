@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("==========================================");
         System.out.println("      Proyecto: Poliretos - Series Numéricas");
-        System.out.println("      Grupo: 4");
-        System.out.println("      Integrantes:");
-        System.out.println("      -Jhoan Patricio Sasnalema De La Cruz\nPongan sus nombres aqui muchachos");
+        System.out.println("Grupo: 4");
+        System.out.println("Integrantes:");
+        System.out.println("-Jhoan Patricio Sasnalema De La Cruz\nPongan sus nombres aqui muchachos");
         System.out.println("==========================================\n");
 
         Scanner sc = new Scanner(System.in);
@@ -63,7 +63,7 @@ public class Main {
         serie10.mostrarSeries(n);
 
 
-        System.out.println("\n=== SERIE NUMERICA 12 ===");
+        System.out.println("\n=== SERIE NUMERICA12 ===");
         S12Numerica serie12 = new S12Numerica();
         serie12.mostrarSeries(n);
 
