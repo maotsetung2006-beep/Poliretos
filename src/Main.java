@@ -112,8 +112,6 @@ public class Main {
         serieS9.mostrarSeries(n);
 
 
-
-<<<<<<< HEAD
   
 =======
         System.out.println("\n=== ARREGLO 1 ===");
@@ -140,7 +138,7 @@ public class Main {
 
 
 
->>>>>>> 856c5126a1313454766802ac8fe808ead5b7ffb9
+
 
         sc.close();
     }
