@@ -1,15 +1,17 @@
 import java.util.Scanner;
 import seriesnumericas.*;
 import seriescaracteres.*;
+import arrays.*;
+
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("==========================================");
         System.out.println("      Escuela Politécnica Nacional");
         System.out.println("      Proyecto: Poliretos - Series Numéricas");
         System.out.println("Grupo: 4");
         System.out.println("Integrantes:");
-        System.out.println("-Jhoan Patricio Sasnalema De La Cruz\nPongan sus nombres aqui muchachos");
+        System.out.println("-Jhoan Patricio Sasnalema De La Cruz\nRobayo Morcillo Samuel Esteban \n");
         System.out.println("==========================================\n");
 
         Scanner sc = new Scanner(System.in);
@@ -108,6 +110,31 @@ public class Main {
         System.out.println("\n=== SERIE DE CARACTERES 9 ===");
         S9Caracteres serieS9 = new S9Caracteres();
         serieS9.mostrarSeries(n);
+
+
+
+        System.out.println("\n=== ARREGLO 1 ===");
+        A01Arrays arr1 = new A01Arrays();
+        arr1.mostrarSeries(n);
+
+        System.out.println("\n=== ARREGLO 2 ===");
+        A02Arrays arr2 = new A02Arrays();
+        arr2.mostrarSeries(n);
+
+        System.out.println("\n=== ARREGLO 3 ===");
+        A03Arrays arr3 = new A03Arrays();
+        arr3.mostrarSeries(n);
+
+
+        System.out.println("\n=== ARREGLO 4 ===");
+        A04Array arr4 = new A04Array();
+        arr4.mostrarSeries(n);
+
+
+        System.out.println("\n=== ARREGLO 5 ===");
+        A05Array arr5 = new A05Array();
+        arr5.mostrarSeries(n);
+
 
 
 
