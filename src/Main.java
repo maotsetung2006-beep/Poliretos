@@ -29,6 +29,8 @@ public class Main {
         int niveles = sc.nextInt();
         sc.nextLine();
 
+
+
         
         System.out.print("Ingrese una frase para contar vocales: ");
         String frase = sc.nextLine();
@@ -160,80 +162,153 @@ public class Main {
         
         System.out.println("\n=== FIGURA 1 ===");
         figura1 f1 = new figura1();
-        f1.g4_dibujarFigura1(tamaFigura);
+        
+        f1.g4_dibujarConFor(tamaFigura);
+        f1.g4_dibujarConWhile(tamaFigura);
+        f1.g4_dibujarConDoWhile(tamaFigura);
+
         
          System.out.println("\n=== FIGURA 2 ===");
         figura2 f2 = new figura2();
-        f2.g4_dibujarFigura2(tamaFigura);
+        
+        f2.g4_dibujarConFor(tamaFigura);
+        f2.g4_dibujarConWhile(tamaFigura);
+        f2.g4_dibujarConDoWhile(tamaFigura);
+
 
          System.out.println("\n=== FIGURA 3 ===");
         figura3 f3 = new figura3();
-        f3.g4_dibujarFigura3(niveles);
+        
+        f3.g4_dibujarFor(niveles);
+        f3.g4_dibujarWhile(niveles);
+        f3.g4_dibujarDoWhile(niveles);
+
 
         System.out.println("\n=== FIGURA 4  ===");
         figura4 f4= new figura4();
-         f4.g4_dibujarFigura3Invertida(niveles);
+         
+        f4.g4_dibujarConFor(niveles);
+        f4.g4_dibujarConWhile(niveles);
+        f4.g4_dibujarConDoWhile(niveles);
+
 
         System.out.println("\n=== FIGURA 5 ===");
         figura5 f5 = new figura5();
-        f5.g4_dibujarFigura5(niveles);
+        
+        f5.g4_dibujarConFor(niveles);
+        f5.g4_dibujarConWhile(niveles);
+        f5.g4_dibujarConDoWhile(niveles);
 
         System.out.println("\n=== FIGURA 6 ===");
-         figura6 f6 = new figura6();
-        f6.g4_dibujarFigura6(niveles);
+        figura6 f6 = new figura6();
+        f6.g4_dibujarConFor(niveles);
+        f6.g4_dibujarConWhile(niveles);
+        f6.g4_dibujarConDoWhile(niveles);
 
         System.out.println("\n=== FIGURA 7 ===");
         figura7 f7 = new figura7();
-        f7.g4_dibujarFigura7(niveles);
+        
+        f7.g4_dibujarConFor(niveles);
+        f7.g4_dibujarConWhile(niveles);
+        f7.g4_dibujarConDoWhile(niveles);
+
 
         System.out.println("\n=== FIGURA 8 ===");
-        figura8 fig8 = new figura8();
-        fig8.g4_dibujarFigura8(niveles);
+        figura8 f8 = new figura8();
+       
+        f8.g4_dibujarConFor(niveles);
+        f8.g4_dibujarConWhile(niveles);
+        f8.g4_dibujarConDoWhile(niveles);
 
         System.out.println("\n=== FIGURA 9  ===");
-        figura9 fig9 = new figura9();
-        fig9.g4_dibujarFigura9(niveles);
+        figura9 f9 = new figura9();
+      
+        f9.g4_dibujarConFor(niveles);
+        f9.g4_dibujarConWhile(niveles);
+        f9.g4_dibujarConDoWhile(niveles);
 
         System.out.println("\n=== FIGURA 10  ===");
-        figura10 fig10 = new figura10();
-        fig10.g4_dibujarFigura10(niveles);
+        figura10 f10 = new figura10();
+       
+        f10.g4_dibujarConFor(niveles);
+        f10.g4_dibujarConWhile(niveles);
+        f10.g4_dibujarConDoWhile(niveles);
+
+   
 
         System.out.println("\n=== FIGURA 11 ===");
         figura11 f11 = new figura11();
-        f11.g4_dibujarFigura11(niveles);
+     
+        f11.g4_dibujarConFor(niveles);
+        f11.g4_dibujarConWhile(niveles);
+        f11.g4_dibujarConDoWhile(niveles);
+
 
         System.out.println("\n=== FIGURA 12 ===");
         figura12 f12 = new figura12();
-        f12.g4_dibujarFigura12(niveles);
+       
+        f12.g4_dibujarConFor(niveles);
+        f12.g4_dibujarConWhile(niveles);
+        f12.g4_dibujarConDoWhile(niveles);
+
 
         System.out.println("\n=== FIGURA 13 ===");
         figura13 f13 = new figura13();
-        f13.g4_dibujarFigura13(niveles);
+       
+        f13.g4_dibujarConFor(niveles);
+        f13.g4_dibujarConWhile(niveles);
+        f13.g4_dibujarConDoWhile(niveles);
 
         System.out.println("\n=== FIGURA 14 ===");
         figura14 f14 = new figura14();
-        f14.g4_dibujarFigura14(niveles);
+      
+        f14.g4_dibujarConFor(niveles);
+        f14.g4_dibujarConWhile(niveles);
+        f14.g4_dibujarConDoWhile(niveles);
+
 
         System.out.println("\n=== FIGURA 15 ===");
         figura15 f15 = new figura15();
-        f15.g4_dibujarFigura15(niveles);
+        
+        f15.g4_dibujarConFor(niveles);
+        f15.g4_dibujarConWhile(niveles);
+        f15.g4_dibujarConDoWhile(niveles);
+
         
         System.out.println("\n=== FIGURA 16 ===");
         figura16 f16 = new figura16();
-        f16.g4_dibujarFigura16(niveles);
+       
+        f16.g4_dibujarConFor(niveles);
+        f16.g4_dibujarConWhile(niveles);
+        f16.g4_dibujarConDoWhile(niveles);
+
 
         System.out.println("\n=== FIGURA 17 ===");
         figura17 f17 = new figura17();
-        f17.g4_dibujarFigura17(niveles);
+      
+        f17.g4_dibujarConFor(niveles);
+        f17.g4_dibujarConWhile(niveles);
+        f17.g4_dibujarConDoWhile(niveles);
+
  
         System.out.println("\n=== FIGURA 18 ===");
         figura18 f18 = new figura18();
-        f18.g4_dibujarFigura18(niveles);
+   
+        f18.g4_dibujarConFor(niveles);
+        f18.g4_dibujarConWhile(niveles);
+        f18.g4_dibujarConDoWhile(niveles);
+
 
 
          System.out.println("\n=== FIGURA 19 ===");
         figura19 f19 = new figura19();
-        f19.g4_dibujarFigura19(niveles);
+   
+          f19.g4_dibujarFigura19(niveles);
+          f19.g4_dibujarrFigura19(niveles);
+          f19.g4_dibujarrrFigura19(niveles);
+      
+
+    
  //================== Cadenas ==================
  
       System.out.println("\n=== Cadenas de caracteres ===");
