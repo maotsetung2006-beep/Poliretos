@@ -314,35 +314,136 @@ public class Main {
       System.out.println("\n=== Cadenas de caracteres ===");
 
          Cadena1 c1 = new Cadena1();
-        int totalVocales = c1.contarVocales(frase); 
-        System.out.println("La frase tiene " + totalVocales + " vocales.");
-        
+
+        // FOR
+        int totalFor = c1.contarVocalesFor(frase);
+        System.out.println("La frase tiene " + totalFor + " vocales. (Contado con FOR)");
+
+        // WHILE
+        int totalWhile = c1.contarVocalesWhile(frase);
+        System.out.println("La frase tiene " + totalWhile + " vocales. (Contado con WHILE)");
+
+        // DO-WHILE
+        int totalDoWhile = c1.contarVocalesDoWhile(frase);
+        System.out.println("La frase tiene " + totalDoWhile + " vocales. (Contado con DO-WHILE)");
+
+        ///////////////////////////////////////
+    
         Cadena2 c2 = new Cadena2();
-        int totalLetras = c2.contarLetras(frase1);
-        System.out.println("La frase tiene " + totalLetras + " letras.");
+
+      
+        int totalFor1 = c2.contarLetrasFor(frase1);
+        System.out.println("La frase tiene " + totalFor1 + " letras. (Contado con FOR)");
+
+      
+        int totalWhile1 = c2.contarLetrasWhile(frase1);
+        System.out.println("La frase tiene " + totalWhile1 + " letras. (Contado con WHILE)");
+
+        
+        int totalDoWhile1= c2.contarLetrasDoWhile(frase1);
+        System.out.println("La frase tiene " + totalDoWhile1 + " letras. (Contado con DO-WHILE)");
+
 
         Cadena3 c3 = new Cadena3();
-        System.out.println("Resultado: " + c3.eliminarVocal(frase3, vocal));
 
-        Cadena4 c4 = new Cadena4();
-        System.out.println("Resultado: " + c4.eliminarLetra(frase4, letra));
+      
+        String resultadoFor = c3.eliminarVocalFor(frase3, vocal);
+        System.out.println("Resultado con FOR: " + resultadoFor);
+
+        
+        String resultadoWhile = c3.eliminarVocalWhile(frase3, vocal);
+        System.out.println("Resultado con WHILE: " + resultadoWhile);
+
+       
+        String resultadoDoWhile = c3.eliminarVocalDoWhile(frase3, vocal);
+        System.out.println("Resultado con DO-WHILE: " + resultadoDoWhile);
+
+        //////////////////////////
+
+       Cadena4 c4 = new Cadena4();
+
+    
+        String resultadoFor2 = c4.eliminarLetraFor(frase4, letra);
+        System.out.println("Resultado con FOR: " + resultadoFor2);
+
+     
+        String resultadoWhile2 = c4.eliminarLetraWhile(frase4, letra);
+        System.out.println("Resultado con WHILE: " + resultadoWhile2);
+
+
+        String resultadoDoWhile2 = c4.eliminarLetraDoWhile(frase4, letra);
+        System.out.println("Resultado con DO-WHILE: " + resultadoDoWhile2);
+
+        /////////////////////////////
+
+
 
         Cadena5 c5 = new Cadena5();
-        System.out.println("Resultado: " + c5.invertirVocalesMayus(frase5));
+
+        
+        String resultadoFor3 = c5.invertirConFor(frase5);
+        System.out.println("Resultado con FOR: " + resultadoFor3);
+
+       
+        String resultadoWhile3 = c5.invertirConWhile(frase5);
+        System.out.println("Resultado con WHILE: " + resultadoWhile3);
+
+        
+        String resultadoDoWhile3 = c5.invertirConDoWhile(frase5);
+        System.out.println("Resultado con DO-WHILE: " + resultadoDoWhile3);
+
+        //////////////////////////
         Cadena6 c6 = new Cadena6();
-        System.out.println("Invertida mayus: " + c6.invertirLetrasMayus(frase6));
+
+        
+        String resultadoFor4 = c6.invertirMayusculasFor(frase6);
+        System.out.println("Resultado con FOR: " + resultadoFor4);
+
+        
+        String resultadoWhile4 = c6.invertirMayusculasWhile(frase6);
+        System.out.println("Resultado con WHILE: " + resultadoWhile4);
+
+       
+        String resultadoDoWhile4 = c6.invertirMayusculasDoWhile(frase6);
+        System.out.println("Resultado con DO-WHILE: " + resultadoDoWhile4);
+
+        //////////////////////////
 
         Cadena7 c7 = new Cadena7();
-        System.out.println("Resultado: " + c7.mayusSinJ(frase7));
+
+      
+        String resultadoFor5 = c7.eliminarJConFor(frase7);
+        System.out.println("Resultado con FOR: " + resultadoFor5);
+
+       
+        String resultadoWhile5 = c7.eliminarJConWhile(frase7);
+        System.out.println("Resultado con WHILE: " + resultadoWhile5);
+
+        
+        String resultadoDoWhile5 = c7.eliminarJConDoWhile(frase7);
+        System.out.println("Resultado con DO-WHILE: " + resultadoDoWhile5);
+
+        //////////////////////////
+
 
         Cadena8 c8 = new Cadena8();
         c8.juegoAnagramas();
+       
+        //////////////////////////
 
+         Cadena9 c9 = new Cadena9();
 
-        Cadena9 c9 = new Cadena9();
-        String resultado = c9.convertirMayusMinus(frase9);
-        System.out.println("Resultado: " + resultado);
+        // FOR
+        String resultadoFor7 = c9.alternarMayusMinusFor(frase9);
+        System.out.println("Resultado con FOR: " + resultadoFor7);
 
+        // WHILE
+        String resultadoWhile7 = c9.alternarMayusMinusWhile(frase9);
+        System.out.println("Resultado con WHILE: " + resultadoWhile7);
+
+        // DO-WHILE
+        String resultadoDoWhile7 = c9.alternarMayusMinusDoWhile(frase9);
+        System.out.println("Resultado con DO-WHILE: " + resultadoDoWhile7);
 
 
         // ================== Arreglos ==================

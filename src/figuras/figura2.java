@@ -3,7 +3,7 @@ package figuras;
 
 public class figura2 {
 
-    // Con FOR
+
     public void g4_dibujarConFor(int tamFigura) {
         System.out.println("\nFigura F2 con FOR:");
         for (int i = 0; i < tamFigura; i++) {
@@ -23,7 +23,7 @@ public class figura2 {
         }
     }
 
-    // Con WHILE
+    
     public void g4_dibujarConWhile(int tamFigura) {
         System.out.println("\nFigura F2 con WHILE:");
         int i = 0;
@@ -46,7 +46,7 @@ public class figura2 {
         }
     }
 
-    // Con DO-WHILE
+  
     public void g4_dibujarConDoWhile(int tamFigura) {
         System.out.println("\nFigura F2 con DO-WHILE:");
         int i = 0;

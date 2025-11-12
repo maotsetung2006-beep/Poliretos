@@ -2,7 +2,7 @@ package figuras;
 
 public class figura11 {
 
-    // Con FOR
+   
     public void g4_dibujarConFor(int niveles) {
         System.out.println("\nFigura 11 con FOR:");
         for (int i = 0; i < niveles; i++) {
@@ -12,11 +12,11 @@ public class figura11 {
             }
             System.out.println("|");
 
-            // Espacios antes de la línea (igual que la barra)
+            
             for (int e = 0; e < i * 2; e++) {
                 System.out.print(" ");
             }
-            // Dibujar guiones bajos (aumenta en cada nivel)
+            
             for (int j = 0; j <= i; j++) {
                 System.out.print("_");
             }
@@ -24,7 +24,7 @@ public class figura11 {
         }
     }
 
-    // Con WHILE
+    
     public void g4_dibujarConWhile(int niveles) {
         System.out.println("\nFigura 11 con WHILE:");
         int i = 0;
@@ -51,7 +51,7 @@ public class figura11 {
         }
     }
 
-    // Con DO-WHILE
+   
     public void g4_dibujarConDoWhile(int niveles) {
         System.out.println("\nFigura 11 con DO-WHILE:");
         int i = 0;
