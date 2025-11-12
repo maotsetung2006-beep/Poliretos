@@ -2,7 +2,7 @@ package figuras;
 
 public class figura6 {
 
-    // Con FOR
+ 
     public void g4_dibujarConFor(int niveles) {
         System.out.println("\nFigura 6 con FOR:");
         for (int i = 1; i <= niveles; i++) {
@@ -18,7 +18,7 @@ public class figura6 {
         }
     }
 
-    // Con WHILE
+  
     public void g4_dibujarConWhile(int niveles) {
         System.out.println("\nFigura 6 con WHILE:");
         int i = 1;
@@ -38,7 +38,7 @@ public class figura6 {
         }
     }
 
-    // Con DO-WHILE
+  
     public void g4_dibujarConDoWhile(int niveles) {
         System.out.println("\nFigura 6 con DO-WHILE:");
         int i = 1;

@@ -2,7 +2,7 @@ package figuras;
 
 public class figura18 {
 
-    // Con FOR
+   
     public void g4_dibujarConFor(int niveles) {
         System.out.println("\nFigura 18 con FOR:");
         int[][] pascal = new int[niveles][niveles];
@@ -21,7 +21,7 @@ public class figura18 {
         }
     }
 
-    // Con WHILE
+   
     public void g4_dibujarConWhile(int niveles) {
         System.out.println("\nFigura 18 con WHILE:");
         int[][] pascal = new int[niveles][niveles];
@@ -44,7 +44,6 @@ public class figura18 {
         }
     }
 
-    // Con DO-WHILE
     public void g4_dibujarConDoWhile(int niveles) {
         System.out.println("\nFigura 18 con DO-WHILE:");
         int[][] pascal = new int[niveles][niveles];
